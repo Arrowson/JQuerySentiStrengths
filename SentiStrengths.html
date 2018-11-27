@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h4 class="navbar-brand">
+            SentiStrengths
+        </h4>
+    </nav>
+    <div class="container">
+        <div class="row"><p></p></div>
+        <div class="row">
+    
+            <form>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <textarea  rows="3" placeholder="Input your job description" id="userInput"></textarea>
+                </div>
+                <div class="col-md-12"> <p></p></div>
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-dark btn-block" id="startCalc">Start Calculation</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="row"><p></p></div>
+        <div class="row">
+            <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <td> <b>Strength 1</b></td>
+                <td id="strength1"></td>
+                <td> <b>Count </b></td>
+                <td id="strength1Count"></td>
+            </tr>
+            <tr>
+                <td> <b>Strength 2</b></td>
+                <td id="strength2"></td>
+                <td><b> Count</b> </td>
+                <td id="strength2Count"></td>
+            </tr>
+            <tr>
+                <td> <b>Strength 3</b></td>
+                <td id="strength3"></td>
+                <td> <b>Count</b> </td>
+                <td id="strength3Count"></td>
+            </tr>
+            <tr>
+                <td> <b>Strength 4</b></td>
+                <td id="strength4"></td>
+                <td> <b>Count </b></td>
+                <td id="strength4Count"></td>
+            </tr>
+            <tr>
+                <td> <b>Strength 5</b></td>
+                <td id="strength5"></td>
+                <td> <b>Count</b> </td>
+                <td id="strength5Count"></td>
+            </tr>
+        </tbody>
+    </table>
+        </div>
+        <div class="row"><p></p></div>
+        <div class="col-md-12">
+            <button type="button" class="btn btn-dark btn-block" id="Show">Show Synonyms</button>
+        </div>
+        <div class="row">
+            <ul class="synonyms" id="synonyms">
+                <li>
+                    This isn't working quite yet. Check back tomorrow. -Aaron Lisle Williamson 8:21 pm 11/18/2018
+                </li>
+            </ul>
+        </div>
+        </div>
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="SentiStrengths.js"></script>
+</body>
+</html>
